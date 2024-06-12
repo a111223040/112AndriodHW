@@ -17,27 +17,27 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/rdbDog"
+            android:id="@+id/rdb漢堡"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="漢堡" />
 
         <RadioButton
-            android:id="@+id/rdbElephant"
+            android:id="@+id/rdb薯條"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="薯條" />
 
         <RadioButton
-            android:id="@+id/rdbMouse"
+            android:id="@+id/rdb可樂"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="可樂" />
 
         <RadioButton
-            android:id="@+id/rdbRabbit"
+            android:id="@+id/rdb玉米濃湯"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,33 +57,42 @@
 
         <ImageView
             android:id="@+id/imgOutput1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
             android:visibility="gone"
-            app:srcCompat="@mipmap/dog" />
+            app:srcCompat="@mipmap/hamburger" />
 
         <ImageView
             android:id="@+id/imgOutput2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            app:srcCompat="@mipmap/elephant" />
+            app:srcCompat="@mipmap/fries" />
 
         <ImageView
             android:id="@+id/imgOutput3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            app:srcCompat="@mipmap/mouse" />
+            app:srcCompat="@mipmap/cola" />
 
         <ImageView
             android:id="@+id/imgOutput4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            app:srcCompat="@mipmap/rabbit" />
+            app:srcCompat="@mipmap/soup" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="你點的餐點如下"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 

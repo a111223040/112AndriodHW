@@ -22,22 +22,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 //判斷選擇哪個RadioButton元件
-                if (checkedId == R.id.rdbDog) {
+                if (checkedId == R.id.rdb漢堡) {
                     image1.setVisibility(ImageView.VISIBLE);
                     image2.setVisibility(ImageView.GONE);
                     image3.setVisibility(ImageView.GONE);
                     image4.setVisibility(ImageView.GONE);
-                } else if (checkedId == R.id.rdbElephant) {
+                } else if (checkedId == R.id.rdb薯條) {
                     image1.setVisibility(ImageView.GONE);
                     image2.setVisibility(ImageView.VISIBLE);
                     image3.setVisibility(ImageView.GONE);
                     image4.setVisibility(ImageView.GONE);
-                } else if (checkedId == R.id.rdbMouse) {
+                } else if (checkedId == R.id.rdb可樂) {
                     image1.setVisibility(ImageView.GONE);
                     image2.setVisibility(ImageView.GONE);
                     image3.setVisibility(ImageView.VISIBLE);
                     image4.setVisibility(ImageView.GONE);
-                } else if (checkedId == R.id.rdbRabbit) {
+                } else if (checkedId == R.id.rdb玉米濃湯) {
                     image1.setVisibility(ImageView.GONE);
                     image2.setVisibility(ImageView.GONE);
                     image3.setVisibility(ImageView.GONE);
